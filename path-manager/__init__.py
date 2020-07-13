@@ -1,1 +1,1 @@
-from PathManager import *
+from pathmanager import *
