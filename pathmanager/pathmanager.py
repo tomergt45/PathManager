@@ -109,8 +109,7 @@ import json
 
 # In[2]:
 
-
-DEFAULT_JSON_PATH = os.getcwd() + '/paths.json'
+DEFAULT_JSON_PATH = os.path.dirname(__file__) + '/paths.json'
 
 class ShortcutObject:
     def __init__(self, path_obj, name, subpath):
@@ -348,7 +347,6 @@ class PathAndShortcutEncoder(json.JSONEncoder):
 # In[8]:
 
 
-paths = PathManager()
 
 
 # In[ ]:

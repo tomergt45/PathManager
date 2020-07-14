@@ -1,1 +1,3 @@
-from pathmanager import *
+from .pathmanager import *
+
+paths = PathManager()
